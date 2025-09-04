@@ -5,6 +5,7 @@ import 'product_model.dart';
 
 part 'cart_item_model.g.dart';
 
+
 @HiveType(typeId: 0)
 @JsonSerializable()
 class CartItemModel extends Equatable {
